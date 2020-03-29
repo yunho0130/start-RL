@@ -8,3 +8,7 @@ conda env create -f environment.yml
 source activate rl-gym-retro
 # Airstriker 실행해보기
 python -m retro.examples.interactive --game Airstriker-Genesis
+# Random Agent를 통해 Airstriker 실행해보기
+python -m random_agent
+# Random Agent의 플레이 데이터 출력
+python -m retro.examples.random_agent --game Airstriker-Genesis

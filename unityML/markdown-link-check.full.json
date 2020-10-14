@@ -1,0 +1,24 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^http://localhost",
+            "comment": "Ignore local tensorboard links"
+        },
+        {
+            "pattern": "^https://developer.nvidia.com/compute/machine-learning/cudnn/secure",
+            "comment": "Requires login"
+        },
+        {
+            "pattern": "https://github.com/Unity-Technologies/ml-agents/(tree|archive)/release_[0-9]+.*",
+            "comment": "Allow future release tags"
+        },
+        {
+            "pattern": "https://forum.unity.com/forums/ml-agents.453/",
+            "comment": "Not reachable from github action"
+        },
+        {
+            "pattern": "mailto:",
+            "comment": "mailto checking broken"
+        }
+    ]
+}

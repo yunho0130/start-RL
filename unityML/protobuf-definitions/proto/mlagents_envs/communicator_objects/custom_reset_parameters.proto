@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option csharp_namespace = "Unity.MLAgents.CommunicatorObjects";
+package communicator_objects;
+
+message CustomResetParametersProto {
+}

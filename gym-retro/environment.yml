@@ -20,13 +20,53 @@ dependencies:
   - xz=5.2.4=h1de35cc_4
   - zlib=1.2.11=h1de35cc_3
   - pip:
-    - cloudpickle==1.3.0
+    - absl-py==0.10.0
+    - astor==0.8.1
+    - atari-py==0.2.6
+    - attrs==20.2.0
+    - cffi==1.14.3
+    - click==7.1.2
+    - cloudpickle==1.2.2
+    - cython==0.29.21
+    - fasteners==0.15
+    - ffmpeg==1.4
     - future==0.18.2
-    - gym==0.17.1
+    - gast==0.4.0
+    - glfw==2.0.0
+    - google-pasta==0.2.0
+    - grpcio==1.32.0
+    - gym==0.15.7
     - gym-retro==0.7.1
+    - h5py==2.10.0
+    - imageio==2.9.0
+    - importlib-metadata==2.0.0
+    - iniconfig==1.0.1
+    - joblib==0.17.0
+    - keras-applications==1.0.8
+    - keras-preprocessing==1.1.2
+    - markdown==3.2.2
+    - monotonic==1.5
+    - mujoco-py==2.0.2.13
     - numpy==1.18.2
+    - opencv-python==4.4.0.44
+    - packaging==20.4
+    - pillow==7.2.0
+    - pluggy==0.13.1
+    - protobuf==3.13.0
+    - py==1.9.0
+    - pycparser==2.20
     - pyglet==1.5.0
+    - pyparsing==2.4.7
+    - pytest==6.1.0
     - scipy==1.4.1
     - six==1.14.0
-prefix: /anaconda3/envs/rl-gym-retro
-
+    - tensorboard==1.14.0
+    - tensorflow==1.14.0
+    - tensorflow-estimator==1.14.0
+    - termcolor==1.1.0
+    - toml==0.10.1
+    - tqdm==4.50.0
+    - werkzeug==1.0.1
+    - wrapt==1.12.1
+    - zipp==3.2.0
+prefix: /opt/anaconda3/envs/rl-gym-retro

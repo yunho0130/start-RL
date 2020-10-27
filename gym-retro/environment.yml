@@ -46,7 +46,7 @@ dependencies:
     - keras-preprocessing==1.1.2
     - markdown==3.2.2
     - monotonic==1.5
-    - mujoco-py==2.0.2.13
+  #  - mujoco-py==2.0.2.13
     - numpy==1.18.2
     - opencv-python==4.4.0.44
     - packaging==20.4

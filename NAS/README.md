@@ -10,6 +10,9 @@ NAS 디렉토리는 Do It! RL 도서의 NAS의 실습에 필요한 파일들이 
 |<em>search.py</em>|ENAS 학습을 위한 코드|
 |<em>utils.py</em>|학습에 필요한 각종 기능들|
 
+##### **License**
+NNI ENAS 소스 코드는 [MIT license](LICENSE)를 따르고 있습니다. <em>Retrain.py</em> 역시 [MIT license](LICENSE)를 따릅니다.
+
 ## NNI ENAS 실습 실행 과정
 NNI ENAS 실습을 위해서 아래와 같은 환경을 구성합니다.
 

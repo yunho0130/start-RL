@@ -1,3 +1,15 @@
+## NAS 디렉토리 구성
+NAS 디렉토리는 Do It! RL 도서의 NAS의 실습에 필요한 파일들이 저장되어 있습니다. 파일의 구성은 아래와 같습니다.
+|파일이름|설명|
+|--|--|
+|datasets.py|CIFAR-10 데이터를 다운로드 하고 학습에 필요한 형태로 변환|
+|macro.py|매이크로 탐색 공간을 활용한 ENAS 학습|
+|micro.py|마이크로 탐색 공간을 활용한 ENAS 학습|
+|ops.py|탐색 공간에서 선택할 수 있는 합성곱 연산자 정의|
+|retrain.py|학습된 신경망을 가지고 모델을 학습|
+|search.py|ENAS 학습을 위한 코드|
+|utils.py|학습에 필요한 각종 기능들|
+
 ## NNI ENAS 실습 실행 과정
 NNI ENAS 실습을 위해서 아래와 같은 환경을 구성합니다.
 
@@ -91,4 +103,10 @@ python search.py --search-for micro
 빠른 결과 확인을 위해서 학습 에폭을 줄여 봅시다. **--epochs** 옵션을 사용합니다.
 ```
 python search.py --search-for micro --epochs 2
+```
+#### ENAS에서 생성된 신경망 구조를 활용한 재학습
+ENAS로 만들어진 신경망 구조를 사용하여 모델을 생성할 수 있습니다.  이 Git Repo의 파일을 사용하여 ENAS 학습과 재학습을 진행하시면 됩니다.
+```
+python search.py --search-for micro
+python retrain.py --search-for micro
 ```

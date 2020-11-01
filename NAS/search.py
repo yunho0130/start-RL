@@ -59,3 +59,4 @@ if __name__ == "__main__":
     if args.visualization:
         trainer.enable_visualization()
     trainer.train()
+    trainer.export(file="export.json")

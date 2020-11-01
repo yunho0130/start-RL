@@ -23,7 +23,7 @@ import json
 logger = logging.getLogger('nni')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
+# NAS로 생성된 자식신경망 구조 학습 하기
 def train(config, train_loader, model, optimizer, criterion, epoch, search_for):
     top1 = AverageMeter("top1")
     top5 = AverageMeter("top5")
@@ -68,7 +68,7 @@ def train(config, train_loader, model, optimizer, criterion, epoch, search_for):
 
     logger.info("Train: [{:3d}/{}] Final Prec@1 {:.4%}".format(epoch + 1, config.retrain_epochs, top1.avg))
 
-
+# 학습된 모델 검증
 def validate(config, valid_loader, model, criterion, epoch, cur_step):
     top1 = AverageMeter("top1")
     top5 = AverageMeter("top5")

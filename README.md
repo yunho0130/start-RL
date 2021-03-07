@@ -30,10 +30,8 @@
     [UnityML 소스코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/unityML)
 
 ### 5장. 아이언맨의 자비스를 내 손으로 만들어 보자
-```
-Google Colab 통한 실습  
+* Google Colab 통한 실습  
 아래의 Jupyter Notebook 파일은 Google Colab과 연결되도록 만들어두었습니다. 이를 통해 5장의 주요 강화학습 모델 학습 코드를 간편하게 실행해 볼 수 있습니다.
-```  
 
 * __OpenAI GPT-2로 알아보는 자연어 처리__  
 

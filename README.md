@@ -44,6 +44,15 @@
     - Beta 버전 API 신청하러 가기 https://beta.openai.com/ 
     - API Key 권한 획득 후, 실습해 보기 [gpt3_curl_cmd.ipynb](https://colab.research.google.com/github/yunho0130/start-RL/blob/master/gpt3/gpt3_curl_cmd.ipynb)  
 
+### 06장 분산 강화 학습 공부하기
+* __MS Azure 무료 체험으로 할 수 있는 분산 강화 학습 실습__
+
+    - Ray 아키텍쳐 및 RLlib 설치 하기
+    - 분산환경에서 카트폴 실행 하기
+
+![](./images/ray_arch.gif) 
+
+ [분산 강화 학습 실습 명령어 및 예제 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/Distributed%20RL)
 
 <!-- ### 자주 묻는 질문 FAQ
 - 추후 추가 예정 -->

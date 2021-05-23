@@ -53,6 +53,16 @@
 ![](./images/ray_arch.gif) 
 
  [분산 강화 학습 실습 명령어 및 예제 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/Distributed%20RL)
+ 
+ ### 07장 강화 학습으로 만드는 신경망 구조
+* __NNI ENAS를 활용한 NAS 실습 보기__
+    - 매크로 탐색 공간을 활용한 ENAS
+    - 마이크로 탐색 공간을 활용한 ENAS
+    - ENAS에서 생성된 신경망 구조를 활용한 재학습
+
+![](./images/enas.gif) 
+
+ [NNI ENAS 실습 명령어 및 예제 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/NAS)
 
 <!-- ### 자주 묻는 질문 FAQ
 - 추후 추가 예정 -->

@@ -73,8 +73,8 @@
 @book{Do-it-Reinforcement-Learning,
   title={Do it! 강화 학습 입문},
   author={조규남, 맹윤호, 임지순},
-  isbn={발행시추가},
-  url={발행시추가},
+  isbn={9791163032526},
+  url={http://www.yes24.com/Product/Goods/101924618},
   year={2021},
   publisher={이지스퍼블리싱}
 }

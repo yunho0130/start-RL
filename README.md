@@ -1,7 +1,7 @@
 # start-RL
 《Do it 강화 학습 입문(Beginning Reinforcement Learning)》 소스 코드 저장소 
 
-<!-- [![Yes24](./images/tinyML_bookcover_kor.jpg)](https://www.yes24.com/Product/Goods/91879171) -->
+[![Yes24](./images/doit_rl_bookcover_300.png)](http://www.yes24.com/Product/Goods/101924618)
 
 - __소스 코드 저장소 다운로드__ [do-it-reinforcement-learning.zip](https://github.com/yunho0130/start-RL/archive/master.zip)
 

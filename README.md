@@ -36,7 +36,14 @@
     ![](./images/rl-unityML-soccer.gif)  
 
     [UnityML 소스 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/unityML)
+    
+### 04장 딥레이서로 구현하는 자율 주행
 
+* __AWS에서 딥레이서 실습하기__   
+    ![](./images/deepracer.png)  
+
+    [AWS 딥레이서 소스 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/deepracer)
+    
 ### 05장 영화 <아이언맨>의 자비스 만들기
 * Google Colab 통한 실습  
 아래의 Jupyter Notebook 파일은 Google Colab과 연결되도록 만들어 두었습니다. 이를 통해 05장의 주요 강화 학습 모델 학습 코드를 간편하게 실행해 보세요.

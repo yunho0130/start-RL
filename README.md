@@ -7,6 +7,12 @@
 
 ## 실습 소스 코드
 
+### 01장 강화 학습이란?
+* __가치 반복법, 블랙잭, Q학습__
+![](./images/rl_intro.png)
+    [강화학습 소스 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/RL_Intro)  
+
+
 ### 03장 알파고 도전을 위한 첫 걸음
 
 * __OpenAI Gym Retro 환경에서 강화 학습 모델 훈련시키기__   

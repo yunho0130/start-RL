@@ -9,7 +9,7 @@
 
 ### 01장 강화 학습이란?
 * __가치 반복법, 블랙잭, Q학습__
-![](./images/rl_intro.png)
+![](./images/rl_intro_.png)
     [강화학습 소스 코드 살펴보기](https://github.com/yunho0130/start-RL/tree/master/RL_Intro)  
 
 

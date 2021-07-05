@@ -4,7 +4,7 @@
 [![Yes24](./images/doit_rl_bookcover_300.png)](http://www.yes24.com/Product/Goods/101924618)
 
 - __소스 코드 저장소 다운로드__ [do-it-reinforcement-learning.zip](https://github.com/yunho0130/start-RL/archive/master.zip)
-- __Do It! 강화학습입문 정오표(2021.6.26.) 확인하기__ [DoIt_RL_rev1.0.pdf](https://github.com/yunho0130/start-RL/revision/DoIt_RL_rev1.0.pdf)
+- __Do It! 강화학습입문 정오표(2021.6.26.) 확인하기__ [DoIt_RL_rev1.0.pdf](https://github.com/yunho0130/start-RL/blob/master/revision/DoIt_RL_rev1.0.pdf)
 
 ## 실습 소스 코드
 
